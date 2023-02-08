@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+ text-shadow: 0 2px 4px rgba(0, 123, 255, 0.373);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', Courier, monospace;
+    font-size: 1.8rem;
+    min-height: 100vh;
+}
+
+.container {
+    padding-inline: 1rem;
+    max-width: 90rem;
+    margin: 10rem auto;
+}
+
+.divider {
+    margin: 5rem 0 2rem;
+}
+
+span {
+    display:block;
+}
+
+.form-input {
+    padding: 1rem 2rem;
+    border: 1px solid #eee;
+    border-radius: 9px;
+    font-family: inherit;
+    color: #444;
+    font-size: 1.8rem;
+}
+
+.form-input:focus {
+    outline: 2px solid rgb(26, 228, 255);
+}
+
+.btn {
+    margin: 0 .5rem;
+    padding: 1rem 2rem;
+    background-color: rgb(0, 123, 255);
+    border: 1px solid rgb(0, 123, 255);
+    border-radius: 9px;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor:pointer;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: #fff;
+    color: rgb(0, 123, 255);
+}
+
+.result-display {
+    margin: 1rem 0;
+    font-size: 2.6rem;
+    color: #444;
+    line-height: 1.5;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js" defer integrity="sha512-NCiXRSV460cHD9ClGDrTbTaw0muWUBf/zB/yLzJavRsPNUl9ODkUVmUHsZtKu17XknhsGlmyVoJxLg/ZQQEeGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js" defer></script>
+    <title>Numbers API Async/Await Exercise</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Number Facts API</h1>
+    <p class="divider">1.</p>
+    <form class="rand-num-fact-form">
+        <label>
+            <span>Select a number:</span>
+            <input class="form-input" type="number" name="rand-num-fact" id="rand-num-fact">
+        </label>
+        <button class="btn" type="submit">Get fact</button>
+    </form>
+    <p class="rand-num-fact-display result-display"></p>
+    <p class="divider">2.</p>
+    <form class="rand-nums-facts-form">
+        <p>Select a min and max range of nums:</p>
+        <label>
+            <span>Min:</span>
+            <input class="form-input" type="number" name="min-num-facts" id="min-num-facts">
+        </label>
+        <label>
+            <span>Max:</span>
+            <input class="form-input" type="number" name="max-num-facts" id="max-num-facts">
+        </label>
+        <button class="btn" type="submit">Get facts in range</button>
+    </form>
+    <div class="rand-nums-list"></div>
+    <p class="divider">3.</p>
+    <form class="rand-four-facts-form">
+        <label>
+            <span>Select your favorite number to get 4 facts:</span>
+            <input class="form-input" type="number" name="rand-num-four-facts" id="rand-num-four-facts">
+        </label>
+        <button class="btn" type="submit">Get 4 facts</button>
+    </form>
+    <div class="rand-four-facts-num-list"></div>
+
+</div>
+</body>
+
+</html>

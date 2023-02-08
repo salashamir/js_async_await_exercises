@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", Courier, monospace;
+  font-size: 1.8rem;
+  min-height: 100vh;
+}
+
+.container {
+  padding-inline: 1rem;
+  max-width: 90rem;
+  margin: 10rem auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.card-btn {
+    font: inherit;
+    padding: 1.2rem 2rem;
+    background-color: rgb(9, 140, 255);
+    color: #fff;
+    border: 2px solid rgb(9, 140, 255);
+    border-radius: 12px;
+    font-size: 1.8rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    background-color: #fff;
+    color: rgb(9, 140, 255);
+}
+
+.cards-gallery {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 3rem;
+}
+
+.card-img {
+    width: 100%;
+    display: block;
+}
